@@ -1,4 +1,4 @@
-package com.example.tp1;
+package com.example.alae_atelier2;
 
 import org.junit.Test;
 

@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">tp1</string>
+    <string name="app_name">Atelier 2</string>
+    <string name="hint_nom">Votre nom</string>
+    <string name="hint_email">Votre email</string>
+    <string name="hint_age">Votre âge</string>
+    <string name="btn_next">Suivant</string>
+    <string name="btn_finish">Terminer</string>
+    <string name="err_empty">Champ vide</string>
+    <string name="online">En ligne</string>
+    <string name="recap_title">Récapitulatif</string>
+    <string name="hello_fmt">Bonjour %1$s (%2$d ans)</string>
+    <string name="step_1">Étape 1 sur 6</string>
+    <string name="step_2">Étape 2 sur 6</string>
+    <string name="step_3">Étape 3 sur 6</string>
+    <string name="welcome_title">Bienvenue !</string>
+    <string name="welcome_desc">Veuillez saisir votre nom pour démarrer l\'expérience.</string>
+    <string name="profile_desc">Complétez vos informations de profil ci-dessous.</string>
+    <string name="loading_title">Chargement en cours...</string>
+    <string name="lbl_email">Adresse Email</string>
+    <string name="lbl_age">Âge</string>
 </resources>

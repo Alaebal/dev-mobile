@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.tp1"
+    namespace = "com.example.alae_atelier2"
     compileSdk {
         version = release(37)
     }
