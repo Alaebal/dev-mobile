@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="card_bg">#F8F6EE</color>
+    <color name="cream">#EFEDE3</color>
+    <color name="forest">#3A4A28</color>
+    <color name="plate_blue">#8FB8D0</color>
+    <color name="sage">#A5B07F</color>
+    <color name="terracotta">#B5703A</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">My Application</string>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/forest</item>
+        <item name="colorOnPrimary">@color/cream</item>
+        <item name="android:windowBackground">@color/cream</item>
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+</resources>

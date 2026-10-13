@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cream"
+    android:orientation="vertical">
+
+    <!-- En-tête : RelativeLayout dans un LinearLayout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dm_serif_display"
+            android:text="L\'Art de\nCuisiner"
+            android:textColor="@color/forest"
+            android:textSize="44sp" />
+
+        <TextView
+            android:id="@+id/headerScript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headerTitle"
+            android:layout_marginTop="-14dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/allura"
+            android:text="Vos recettes du jour"
+            android:textColor="@color/sage"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/headerSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/headerScript"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:letterSpacing="0.1"
+            android:text="Trouvez l\'inspiration dans votre assiette"
+            android:textColor="@color/forest"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@id/headerSub"
+            android:text="✦"
+            android:textColor="@color/sage"
+            android:textSize="44sp" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+</LinearLayout>
